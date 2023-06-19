@@ -1,0 +1,16 @@
+﻿@model Cart
+
+<div class="">
+    @if (Model.Lines.Count() > 0)
+    {
+        <small class="navbar-text text-gradient">
+            <b>Twój koszyk:</b>
+            @Model.Lines.Sum(x => x.Quantity) produkt(y)
+            @Model.ComputeTotalValue().ToString("c")
+        </small>
+    }
+    <a class="btn btn-sm btn-secondary navbar-btn bg-gradient-primary-to-secondary" asp-page="/Cart"
+    asp-route-returnurl="@ViewContext.HttpContext.Request.PathAndQuery()">
+    <i class="fa fa-shopping-cart bg-gradient-primary-to-secondary"></i>
+    </a>
+</div>

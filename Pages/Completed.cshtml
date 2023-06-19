@@ -1,0 +1,15 @@
+﻿@page
+
+<div class="text-center">
+    <h2>Dziękujemy!</h2>
+    <p>Dziękujemy za złożenie zamówienia #@OrderId.</p>
+    <p>
+        Opłać zamówienie: <a class="btn btn-primary" href="https://buy.stripe.com/eVa9CD7Rlc1Kabu4gg">Tutaj</a>
+    </p>
+    <a class="btn btn-primary" asp-controller="Home">Powrót do sklepu</a>
+</div>
+
+@functions {
+    [BindProperty(SupportsGet = true)]
+    public string OrderId { get; set; }
+}

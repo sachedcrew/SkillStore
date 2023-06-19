@@ -1,0 +1,14 @@
+﻿@model IEnumerable<string>
+
+@foreach (string category in Model)
+{
+    <li class="nav-item">
+        <a class="nav-link text-gradient"
+        asp-action="Index"
+        asp-controller="Home"
+        asp-route-category="@category"
+        asp-route-productPage="1">
+        @category
+    </a>
+    </li>
+}
