@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j09458QjDsLwwu63jFarfd1r9NhLSZ/pai3HL5LlbORRBrFSEpjQHchiFFrP+3E1nCEOYpGyHYXydBx22XpfCg==",
+  "dgSpecHash": "8b/TS/TdpV8CXsHrSInprfWP1Nv0zg6wf0REWqa21EOXIRYkSu40Gax3ut7A3bYLf8fj4LU4uT/mxLIz8/P+9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sache\\Source\\Repos\\SkillStore\\SklStore.csproj",
+  "projectFilePath": "C:\\Users\\sache\\OneDrive\\Pulpit\\ASP.NET Core\\SklStore\\SklStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sache\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\sache\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
