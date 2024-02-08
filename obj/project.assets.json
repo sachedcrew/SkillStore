@@ -12090,11 +12090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sache\\Source\\Repos\\SkillStore\\SklStore.csproj",
+      "projectUniqueName": "C:\\Users\\sache\\OneDrive\\Pulpit\\ASP.NET Core\\SklStore\\SklStore.csproj",
       "projectName": "SklStore",
-      "projectPath": "C:\\Users\\sache\\Source\\Repos\\SkillStore\\SklStore.csproj",
+      "projectPath": "C:\\Users\\sache\\OneDrive\\Pulpit\\ASP.NET Core\\SklStore\\SklStore.csproj",
       "packagesPath": "C:\\Users\\sache\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sache\\Source\\Repos\\SkillStore\\obj\\",
+      "outputPath": "C:\\Users\\sache\\OneDrive\\Pulpit\\ASP.NET Core\\SklStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
